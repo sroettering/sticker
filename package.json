@@ -1,0 +1,15 @@
+{
+  "name": "sticker",
+  "version": "1.0.0",
+  "description": "Webcomponent for transforming SVGs into stickers",
+  "main": "sticker.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
