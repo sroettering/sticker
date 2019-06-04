@@ -7,7 +7,7 @@ template.innerHTML = `
       fill: white !important;
     }
 
-    .sticker > svg, .sticker > img {
+    .sticker ::slotted(svg), .sticker ::slotted(img) {
       filter: drop-shadow(3px 0px 0px rgba(255, 255, 255, 1)) 
               drop-shadow(0px 3px 0px rgba(255, 255, 255, 1)) 
               drop-shadow(0px -3px 0px rgba(255, 255, 255, 1)) 
@@ -21,6 +21,8 @@ template.innerHTML = `
   </div>
 `;
 
+window.ShadyCSS && window.ShadyCSS.prepareTemplate(template, tagName);
+
 class Sticker extends HTMLElement {
   constructor() {
     super();
@@ -28,6 +30,7 @@ class Sticker extends HTMLElement {
 
   connectedCallback() {
     if (!this.shadowRoot) {
+        window.ShadyCSS && window.ShadyCSS.styleElement(this);
       this.attachShadow({ mode: 'open' });
       this.shadowRoot.appendChild(template.content.cloneNode(true));
     }

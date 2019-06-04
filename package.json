@@ -2,13 +2,20 @@
   "name": "sticker",
   "version": "1.0.0",
   "description": "Webcomponent for transforming SVGs into stickers",
-  "main": "sticker.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sroettering/sticker.git"
+  },
+  "main": "src/sticker.js",
   "scripts": {
-    "start": "http-server .",
+    "start": "http-server . -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Sven Röttering",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sroettering/sticker/issues"
+  },
   "devDependencies": {
     "http-server": "^0.11.1"
   }
