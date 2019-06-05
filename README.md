@@ -1,5 +1,6 @@
-[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)](https://www.npmjs.com/package/stickerize)
+[![npm](https://img.shields.io/npm/v/stickerize.svg?style=popout)](https://www.npmjs.com/package/stickerize)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/stickerize)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/stickerize.svg?style=popout)
 
 # <sro-sticker>
 
