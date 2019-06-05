@@ -2,8 +2,6 @@
 
 Stickerize your images with a simple web component!
 
-[DEMO](https://github.com/sroettering/sticker)
-
 ## Installation
 ```
 npm -i -S sticker
@@ -24,6 +22,15 @@ npm -i -S sticker
 ```
 
 ## Usage
+<!--
+```
+<custom-element-demo>
+    <template>
+        <link rel="import" href="stickerize.html">
+    </template>
+</custom-element-demo>
+```
+-->
 ```html
 <!-- with SVG -->
 <sro-sticker>

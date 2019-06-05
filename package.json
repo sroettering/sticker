@@ -1,7 +1,7 @@
 {
-  "name": "sticker",
+  "name": "stickerize",
   "version": "1.0.0",
-  "description": "Webcomponent for transforming SVGs into stickers",
+  "description": "Webcomponent for stickerizing SVGs and other images",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sroettering/sticker.git"
