@@ -1,6 +1,6 @@
 {
   "name": "stickerize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webcomponent for stickerizing SVGs and other images",
   "repository": {
     "type": "git",
