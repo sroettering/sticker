@@ -1,6 +1,11 @@
+[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)](https://www.npmjs.com/package/stickerize)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/stickerize)
+
 # <sro-sticker>
 
 Stickerize your images with a simple web component!
+
+[Demo](https://sroettering.github.io/stickerize/)
 
 ## Installation
 ```
